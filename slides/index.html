@@ -5,7 +5,7 @@
     <title>Интеграция системы портфолио</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <link rel="stylesheet" href="node_modules/@shower/ribbon/styles/styles.css">
     <style>
         .shower {
             --slide-ratio: calc(16 / 9);
@@ -29,9 +29,10 @@
         <p class="">Живые примеры</p>
         <div class="columns two">
             <ul>
-                <li><a href="https://portfolio.rgsu.net/">Главная страница</a></li>
-                <li><a href="https://portfolio.rgsu.net/portfolio/">Портфолио по профессиям</a></li>
-                <li><a href="https://portfolio.rgsu.net/portfolio/p_27810.html">Страница портфолио</a></li>
+                <li><a target='_blank' href="https://portfolio.rgsu.net/">Главная страница</a></li>
+                <li><a target='_blank' href="https://portfolio.rgsu.net/portfolio/">Портфолио по профессиям</a></li>
+                <li><a target='_blank' href="https://portfolio.rgsu.net/portfolio/p_27810.html">Страница портфолио</a>
+                </li>
             </ul>
             <img height='280' src="img_old-2.png" alt="Портфолио по профессиям">
         </div>
@@ -43,11 +44,11 @@
             <tbody>
                 <tr>
                     <th>Время исполнения</th>
-                    <td>ENTER YOUR VALUE</td>
+                    <td>2 месяца</td>
                 </tr>
                 <tr>
                     <th>Стоимость работ</th>
-                    <td>100500$$$</td>
+                    <td>2 300 000₽</td>
                 </tr>
             </tbody>
         </table>
@@ -65,12 +66,21 @@
         <p class="">Живые примеры</p>
         <div class="columns two">
             <ul>
-                <li><a href="https://olovyannikov.github.io/RGSU-student-portal/build/index.html">Главная страница</a>
+                <li><a target='_blank' target='_blank'
+                        href="https://olovyannikov.github.io/RGSU-student-portal/build/index.html">Главная страница</a>
                 </li>
-                <li><a href="https://olovyannikov.github.io/RGSU-student-portal/build/digital-portfolio.html">Портфолио
+                <li><a target='_blank' target='_blank'
+                        href="https://olovyannikov.github.io/RGSU-student-portal/build/digital-portfolio.html">Портфолио
                         по профессиям</a></li>
-                <li><a href="https://olovyannikov.github.io/RGSU-student-portal/build/digital-profile.html">Страница
+                <li><a target='_blank'
+                        href="https://olovyannikov.github.io/RGSU-student-portal/build/digital-profile.html">Страница
                         портфолио</a></li>
+                <li><a target='_blank'
+                        href="https://olovyannikov.github.io/RGSU-student-portal/build/dashboard.html">Цифровой
+                        профиль</a></li>
+                <li><a target='_blank'
+                        href="https://olovyannikov.github.io/RGSU-student-portal/build/my-children-profile.html">Кабинет
+                        родителя</a></li>
             </ul>
             <img height='280' src="img_new-3.png" alt="Портфолио по профессиям">
         </div>
@@ -81,11 +91,11 @@
             <tbody>
                 <tr>
                     <th>Время исполнения</th>
-                    <td>ENTER YOUR VALUE</td>
+                    <td>1.5 месяца</td>
                 </tr>
                 <tr>
                     <th>Стоимость работ</th>
-                    <td>100500$$$</td>
+                    <td>1 800 000₽</td>
                 </tr>
             </tbody>
         </table>
@@ -94,7 +104,7 @@
 
     <div class="progress"></div>
 
-    <script src="shower/shower.js"></script>
+    <script src="node_modules/@shower/core/dist/shower.js"></script>
 
 </body>
 
